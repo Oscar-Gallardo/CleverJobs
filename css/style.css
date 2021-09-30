@@ -1,0 +1,35 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+body {
+    background: #11121A;
+    color: #fff;
+    font-family: "Merriweather Sans", snas-serif;
+    margin: 0;
+}
+header {
+    align-items: center;
+    background-color: #1c1c24;
+    display: flex;
+    font-size: 20px;
+    height: 70px;
+    justify-content: center;
+}
+.header-wrapper {
+    align-items: center;
+    display: flex;
+    max-width: 1250px;
+    width: 100%;
+}
+.header-wrapper .logo {
+    height: 30px;
+    margin-right: 10px;
+}
+.header-wrapper .logo img {
+    height: 100%;
+}
