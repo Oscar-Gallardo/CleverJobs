@@ -19,6 +19,8 @@ header {
     font-size: 20px;
     height: 70px;
     justify-content: center;
+    margin-bottom: 25px;
+    padding: 0 25px;
 }
 .header-wrapper {
     align-items: center;
@@ -32,4 +34,52 @@ header {
 }
 .header-wrapper .logo img {
     height: 100%;
+}
+.search {
+    margin: 0 auto;
+    max-width: 1250px;
+    padding: 0 25px;
+    width: 100%;
+}
+.search-wrapper {
+    background-color: #1c1c24;
+    border: 2px solid #222328;
+    border-radius: 10px;
+    display: flex;
+    height: 60px;
+    overflow: hidden;
+}
+.input-wrapper {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+}
+.input-wrapper i {
+    font-size: 20px;
+    margin-left: 25px;
+}
+.input-wrapper input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    flex-grow: 1;
+    font-size: 20px;
+    margin-left: 20px;
+    outline: none;
+}
+.button-wrapper {
+    align-items: center;
+    background: #3060ff;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    font-family: inherit;
+    font-size: inherit;
+    justify-content: center;
+    transition: all 0.2s ease;
+    width: 100px;
+}
+.button-wrapper:hover {
+    background: #5a81ff;
 }
