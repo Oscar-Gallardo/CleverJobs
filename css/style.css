@@ -9,7 +9,7 @@ html {
 body {
     background: #11121A;
     color: #fff;
-    font-family: "Merriweather Sans", snas-serif;
+    font-family: "Merriweather Sans", sans-serif;
     margin: 0;
 }
 header {
@@ -82,4 +82,84 @@ header {
 }
 .button-wrapper:hover {
     background: #5a81ff;
+}
+.jobs-list {
+    background-color: #11121A;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1250px;
+    padding: 0 25px;
+    width: 100%;
+}
+.jobs-list h1 {
+    font-size: 20px;
+    margin-left: 25px;
+}
+.jobs-wrapper {
+    background: #11121A;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.job-tile {
+    background: #1c1c24;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.2s;
+    padding: 30px;
+}
+.job-tile:hover {
+    transform: scale(1.05);
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.top img {
+    height: 50px;
+    width: 50px;
+}
+.role {
+    padding: 20px 0;
+}
+.role span {
+    font-size: 22px;
+}
+.description {
+    color: #96939B;
+    font-size: 18px;
+    height: 105px;
+    overflow: hidden;
+}
+.buttons {
+    color: #000;
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.button {
+    align-items: center;
+    background-color: #2e2e39;
+    border: none;
+    border-radius: 10px;
+    color: #96939B;
+    display: flex;
+    flex: 1;
+    font-family: inherit;
+    font-size: 14px;
+    justify-content: center;
+}
+.button.apply-now {
+    background-color: #3060ff;
+    color: #fff;
+    margin-right: 15px;
 }
