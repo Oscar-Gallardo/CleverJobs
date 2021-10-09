@@ -136,6 +136,7 @@ header {
 }
 .description {
     color: #96939B;
+    flex-grow: 1;
     font-size: 18px;
     height: 105px;
     overflow: hidden;
