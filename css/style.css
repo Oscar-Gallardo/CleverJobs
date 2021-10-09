@@ -165,3 +165,14 @@ header {
     color: #fff;
     margin-right: 15px;
 }
+
+@media screen and (max-width: 930px) {
+    .jobs-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 600px) {
+    .jobs-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
